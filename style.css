@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 218, 218);
+}
+
+.custom_nav {
+    font-size: small;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.custom-divider {
+    height: 5px;
+    background: rgb(89, 84, 180);
+    background: linear-gradient(90deg, rgba(89, 84, 180, 1) 0%, rgba(95, 126, 95, 1) 11%, rgba(170, 173, 23, 1) 24%, rgba(224, 64, 36, 1) 35%, rgba(164, 108, 215, 1) 49%, rgba(124, 173, 70, 1) 66%, rgba(151, 78, 149, 1) 76%, rgba(180, 80, 98, 0.9923319669664741) 87%, rgba(109, 185, 200, 1) 100%);
+}
+
+/* .main-head {
+   
+} */
+
+.main-header {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: rgb(204, 241, 241);
+    background-image: url(./img/custom\ –\ 1\ -\ Copy.png);
+    background-size: cover;
+}
+
+.main-about {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+    background-image: url(./img/tim-schmidbauer-tp9pY1LGkKo-unsplash.jpg);
+    background-size: cover;
+}
+
+.main-contact {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+    background-image: url(./img/jung-ho-park-AXOw5e_TzXQ-unsplash.jpg);
+    background-size: cover;
+}
+
+section.feature {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    /* background-color: rgb(245, 141, 104); */
+    background-color: rgb(236, 233, 233);
+}
+
+.feature-matter {
+    text-align: center;
+    margin: 25px;
+}
+
+.feature-matter h3 {
+    font-size: 1.3em;
+}
+
+.feature-matter p {
+    font-size: 14px;
+}
+
+section.online {
+    margin: 10px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+a#linkedin {
+    font-size: 1.2em;
+}
+
+.online-profile {
+    padding-top: 20px;
+}
+
+#github {
+    background-color: #161B22;
+    color: white;
+    font-size: 1.2em;
+}
+
+#codepen {
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+}
+
+.online-profile p {
+    font-size: 14px;
+}
+
+#unsplash {
+    font-family: 'Potta One',
+        cursive;
+    font-size: 1.2em;
+
+}
+
+.gallery {
+    margin-bottom: 5px;
+}
+
+.gallery p {
+    font-size: 14px;
+}
+
+.fa-hand-holding-heart {
+    /* color: red; */
+    /* size: 100px; */
+    font-size: 1.2em;
+}
+
+.fa-grin-hearts {
+    color: red;
+}
+
+.videoplayer {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.sign-up {
+    text-align: center;
+
+}
+
+.sign-up h4 {
+    font-size: 1.2em;
+}
+
+.portfolio-list-item {
+    color: black;
+}
+
+a:link {
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+.checked,
+.rating {
+    color: orange;
+    margin: 1rem 0;
+}
+
+
+.portfolio-list-item {
+    font-size: small;
+    padding-top: 20px;
+}
+
+.rev-section {
+    margin: auto;
+    padding: 1 rem;
+    max-width: 1100px;
+    text-align: center;
+}
+
+.review-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(50, 50, 50);
+    margin-bottom: .5rem;
+}
+
+.reviews {
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews-content {
+    margin: 0 1rem;
+    min-width: 300px;
+    flex: 1;
+}
+
+.head-review {
+    margin: 1.75rem auto;
+    width: 150px;
+    height: 150px;
+}
+
+.review-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+}
+
+.body-review {
+    background-color: rgb(238, 238, 238);
+    padding: 2.5rem;
+    box-shadow: 2px 2px 10px 3px rbg(225, 225, 225);
+
+}
+
+.name-review {
+    font-size: 1.5rem;
+    color: rgb(50, 50, 50);
+    margin-bottom: .25rem;
+}
+
+.place-review {
+    color: red;
+    font-style: italic;
+}
+
+.desc-review {
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(150, 150, 150);
+}
+
+/* footer  */
+.footer {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'Langar',
+        cursive;
+    font-size: large;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer.main-footer {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+aside.footer-widget {
+    margin-bottom: 25px;
+}
+
+aside.footer-widget h5 {
+    font-size: 16px;
+}
+
+aside.footer-widget ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+aside.footer-widget ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(214, 178, 134);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.icons {
+    /* padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 35px; */
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+    color: white;
+    font-size: 35px;
+    align-items: center;
+
+}
+
+address h2 {
+    font-size: 20px;
+}
+
+hr {
+    border: 3px solid #d1142d;
+}
+
+
+.icons a {
+    color: rgba(59, 58, 58, 0.863);
+    margin: 25px;
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+    padding-top: 4px;
+}
+
+.hearticon,
+.fa-heart {
+    color: red;
+}
+
+/* Contact form  */
+.google-map {
+    padding-top: 50px;
+}
